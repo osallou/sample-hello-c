@@ -11,4 +11,4 @@ jobs:
       id: rpm
       uses: osallou/rpmchecker-action@master
     - name: get rpmversion
-      run: echo "Deb package version ${{steps.rpm.outputs.rpmversion}}"
+      run: echo "Rpm package version ${{steps.rpm.outputs.rpmversion}}"
